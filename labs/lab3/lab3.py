@@ -1,5 +1,5 @@
 """
-Name: <Hayam Abdalla>
+Name: Hayam Abdalla
 lab3.py
 """
 
