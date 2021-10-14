@@ -6,9 +6,11 @@ Partner: <your partner's name goes here – first and last>
 
 import math
 
+
 def cash_conversion():
-     x = eval(input("enter an integer: "))
-     print('${:.2f}'.format(x))
+    x = eval(input("enter an integer: "))
+    print('${:.2f}'.format(x))
+
 
 def encode():
     message = input(" enter the message :")
@@ -23,17 +25,19 @@ def encode():
 
 
 def spherearea(radius):
-    return 4 * math.pi * radius **2
+    return 4 * math.pi * radius ** 2
 
 
 def spherevolume(radius):
-    return (4/3) * math.pi * radius **3
+    return (4/3) * math.pi * radius ** 3
 
-def sum_N(n):
+
+def sum_n(n):
     acc = 0
     for i in range(n):
         acc += i
     return acc
+
 
 def sum_n_cubes(n):
     acc = 0
@@ -56,23 +60,14 @@ def encode_better():
     print(acc)
 
 
-
-
-
-
 def main():
     cash_conversion()
     encode()
     print(spherevolume(3))
     print(spherearea(5))
-    print(sum_N(7))
+    print(sum_n(7))
     print(sum_n_cubes(10))
     encode_better()
-
-
-
-
-
 
 
 main()
