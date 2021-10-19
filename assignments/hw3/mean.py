@@ -3,7 +3,7 @@ name: Hayam Abdalla
 mean.py
 
 
-problem:calculating mean with three ways rms , harmonic and geometric
+problem:calculating the rms average , harmonic mean and geometric mean
 
 certification of authenticity:
 I certify that this assignment is entirely my own work.
