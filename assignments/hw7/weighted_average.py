@@ -60,6 +60,5 @@ def main():
     weighted_average("grades.txt", "avg.txt")
 
 
-
 if __name__ == '__main__':
     main()
