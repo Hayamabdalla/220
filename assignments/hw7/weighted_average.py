@@ -57,13 +57,8 @@ def weighted_average(in_file_name, out_file_name):
 
 
 def main():
-    # in_file = open("grades.txt", "r")
-    # out_file = open("avg.txt", "w")
-    # calling for the function to run
     weighted_average("grades.txt", "avg.txt")
-    # closing the files
-    # in_file.close()
-    # out_file.close()
+
 
 
 if __name__ == '__main__':
