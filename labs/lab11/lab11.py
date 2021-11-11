@@ -1,6 +1,6 @@
 """
 Name: Hayam Abdalla
-hangman.py
+lab11.py
 """
 from random import randint
 
